@@ -19,7 +19,7 @@ The following two commands are for Windows specifically.
 * bundle lock --add-platform ruby
 * bundle lock --add-platform x86_64-linux
 
-## Server
+## Run Server
 To spin up the server, enter command: `bundle exce jekyll serve`
 Note that the server will continue to serve updated content as you edit it. This is a great way to check over blog posts to make sure they look good. However, any changes made to _config.yml will not appear until you close the server and then re-open it.
 
@@ -54,3 +54,11 @@ You can simply create a folder such as "Images" in the root of your Jekyll site 
 
 As such, once an image is in the folder, you can reference it on your pages and posts as follows:
 * `![Description of image](/images/filename.jpg)`
+
+## Publish Jekyll Website
+To deploy the site for the web, you must run a new command for Jekyll to generate the final site files.
+This command is: `bundle exec jekyll build`.
+
+By default, the site files are generated in a file called `_site`. In the case that you changed the configuration, such as for this tutorial, then they will generate elsewhere. In this case they are going to genreate to the folder called `public`.
+
+The contents of this output folder is the entire website. So you need to take all those files and upload them to a webserver.
