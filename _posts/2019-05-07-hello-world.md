@@ -48,3 +48,9 @@ To create a page, use the command `bundle exec jekyll page "Page Title"`. This n
 
 ## Linking to Other Pages on Site
 The syntax for linking to another page in your own Jekyll site is relatively simple. The name and path appear as such: `[projects](/projects)` for a link to another page.
+
+## Adding Images
+You can simply create a folder such as "Images" in the root of your Jekyll site directory. Then stick an image or two within it. No matter what unrecognized Jekyll files you place like this, they'll just all end up ppearing in the Output folder. 
+
+As such, once an image is in the folder, you can reference it on your pages and posts as follows:
+* `![Description of image](/images/filename.jpg)`
