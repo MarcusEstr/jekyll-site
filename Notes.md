@@ -17,3 +17,5 @@
 #the gem jekyll-compose added in gemfile file allows easier way to create posts.
 #use the command `bundle exec jekyll post "Post Name Here"` 
 #for it to automatically create file in underscore posts folder!
+# front matter is the properties for every post
+#jekyllrb.com/docs/front-matter
