@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![Description of image](../Images/cat.JPG)
+![Description of image](https://i.ibb.co/4NkT1R1/cat.jpg)
 
 I like cats.
