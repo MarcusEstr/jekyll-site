@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-![Description of image](jekyll-site/Images/cat.jpg)
+![Description of image](Images/cat.jpg)
 
 I like cats.
